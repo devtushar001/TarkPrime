@@ -30,7 +30,7 @@
 
 .sidebar .menu-items li:hover {
     transform: scale(1.02);
-    color: blue;
+    color: rgb(0, 32, 53);
 }
 
 /* Active Sidebar (slide in) */

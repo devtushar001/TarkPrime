@@ -37,11 +37,9 @@
 .navbar .left .menu:hover,
 .navbar .left .location:hover,
 .navbar .left .search:hover {
-    color: blue;
+    color: rgb(0, 32, 53);
 }
 
 .navbar .right img {
     height: 65px;
 }
-
-/* Sidebar Styling */

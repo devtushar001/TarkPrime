@@ -1,0 +1,41 @@
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 30px 0px;
+}
+
+.first-section .heading {
+    max-width: 1000px;
+}
+
+.first-section .heading h2 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.first-section .heading span {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-section .heading strong {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn {
+  padding: 7px 12px;
+  cursor: pointer;
+  border: 1px solid rgb(0, 32, 53);
+  background: none;
+  color: rgb(0, 32, 53);
+  transition: all ease-in 0.3s;
+}
+
+.btn:hover {
+    color: #fff;
+    background: rgb(0, 32, 53);
+}

@@ -1,0 +1,95 @@
+.slider-container {
+  width: 100%;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.slider input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  transition: transform 0.6s ease;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* Dots navigation */
+.navigation {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.navigation label {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.navigation label:hover {
+  background: #ccc;
+}
+
+/* Slide position based on radio selection */
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+#slide4:checked ~ .slides {
+  transform: translateX(-300%);
+}
+#slide5:checked ~ .slides {
+  transform: translateX(-400%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slider {
+    height: 300px;
+  }
+
+  .slide img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: 200px;
+  }
+
+  .slide img {
+    height: 200px;
+  }
+}

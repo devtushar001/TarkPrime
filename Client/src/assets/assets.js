@@ -27,6 +27,7 @@ import eyePng from './eye.png';
 import fOne from './f1.png';
 import fTwo from './f2.png';
 import tarkPrime from './tarkprime.png';
+import squareTarkPrime from './TarkPrimeB.png';
 
 export const assets = {
     bulletIsometric,
@@ -57,7 +58,8 @@ export const assets = {
     eyePng,
     fOne,
     fTwo,
-    tarkPrime
+    tarkPrime,
+    squareTarkPrime
 }
 
 // export default assets; //default export

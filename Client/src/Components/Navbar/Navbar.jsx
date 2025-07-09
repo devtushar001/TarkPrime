@@ -29,6 +29,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+           <div className="margin-setup" style={{ marginTop: '72px' }}></div>
             <Sidebar menu={menu} />
         </>
     )
